@@ -4,7 +4,7 @@ barra="\033[0m\e[34m━━━━━━━━━━━━━━━━━━━━
 fun_bar () {
 comando[0]="$1"
 comando[1]="$2"
- (
+(
 [[ -e $HOME/fim ]] && rm $HOME/fim
 ${comando[0]} > /dev/null 2>&1
 ${comando[1]} > /dev/null 2>&1
